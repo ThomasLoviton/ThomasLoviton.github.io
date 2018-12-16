@@ -13,10 +13,10 @@
         crossorigin="anonymous">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar">
     <header>
         <nav class="navbar navbar-light fixed-top navbar-expand-lg">
-            <a class="navbar-brand" href="https://thomasloviton.github.io/index.html">
+            <a class="navbar-brand" href="thomasloviton.github.io/index.html">
                 <i class="fas fa-graduation-cap"></i>
                 Mon portfolio
             </a>
@@ -25,7 +25,10 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav align-items-center nav-pills nav-fill">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Accueil">Accueil</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#Formations">Formations</a>
                     </li>
@@ -43,13 +46,14 @@
                     </li>
                 </ul>
             </div>
-        </nav>
     </header>
     <main>
-        <section class="container-fluid row m-0 justify-content-center align-items-center text-center" id="containerPhoto">
+        <section class="container-fluid row m-0 justify-content-center align-items-center text-center" id="Accueil">
             <div class="col" id="textePhoto">
-                <h1>Thomas Loviton</h1>
-                <p>Je suis étudiant en Développement Web & Mobile</p>
+                <div>
+                    <h1 class="d-inline">Thomas Loviton</h1> <br />
+                    <p class="d-inline">Je suis étudiant en Développement Web & Mobile</p>
+                </div>
             </div>
         </section>
 
@@ -106,7 +110,7 @@
         <section class="container-fluid text-center bg-success p-3" id="ExperiencesProfessionnelles">
             <h2><i class="fas fa-briefcase mr-2"></i>Expériences professionnelles<i class="fas fa-briefcase ml-2"></i></h2>
             <div class="row justify-content-center align-items-start p-3">
-                <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="col-3">
                     <h3>BUBENDORFF - SAINT-LOUIS | Intérimaire</h3><br />
                     <!-- https://www.bubendorff.com/wp-inside/uploads/2018/01/2018-logo-durable.jpg -->
                     <img class="rounded-circle p-2 w-75" src="Images/Bubendorff.jpg"><br />
@@ -119,7 +123,7 @@
                     fonctionnement de ces volets.
                 </div>
 
-                <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="col-3">
 
                     <h3>DK CONSULTING - MULHOUSE | Stagiaire</h3><br />
                     <!-- https://dk-consulting.fr/wp-content/uploads/2016/04/logo.png -->
@@ -133,7 +137,7 @@
 
                 </div>
 
-                <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="col-3">
 
                     <h3>MINISTERE DE L’ECONOMIE ET DES FINANCES - PARIS | Stagiaire</h3>
                     <!-- https://upload.wikimedia.org/wikipedia/fr/thumb/c/c2/Minist%C3%A8re_de_l%27%C3%89conomie_et_des_Finances_%28France%29_%28jusqu%27en_2017%29.svg/1200px-Minist%C3%A8re_de_l%27%C3%89conomie_et_des_Finances_%28France%29_%28jusqu%27en_2017%29.svg.png -->
@@ -145,7 +149,7 @@
                     Mission : Dépanner et résoudre les problèmes informatiques face à la demande.
                 </div>
 
-                <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="col-3">
 
                     <h3>JARDILAND - SIERENTZ | Stagiaire</h3><br />
                     <!-- https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/LOGO_JLD_Blocmarque_Signature_Q.jpg/1200px-LOGO_JLD_Blocmarque_Signature_Q.jpg -->
@@ -304,15 +308,16 @@
                 <i class="fa fa-heart mr-0.5" style="color: blue"></i>
                 <i class="fa fa-heart mr-0.5" style="color: white"></i>
                 <i class="fa fa-heart" style="color: red"></i>
-                par <a href="https://thomasloviton.github.io/index.html">Thomas LOVITON</a>
+                par <a href="thomasloviton.github.io/index.html">Thomas LOVITON</a>
+                <i class="fab fa-linkedin ml-5" style="color: #0077B5"><a href="https://www.linkedin.com/in/thomas-loviton/"></a></i>
             </div>
         </nav>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 </body>
 
