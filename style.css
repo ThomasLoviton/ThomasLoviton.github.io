@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand|Indie+Flower|Lobster|Play');
+
+
+html, body{
+    width: 100%;
+}
+nav{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+#containerPhoto{
+    background: url("../Portfolio/Images/photoTest.jpg");
+    filter: grayscale(60%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* clip-path: inset(50px 60px); */
+    
+}
+@media (min-width: 576px) { #containerPhoto{height: 300px;} }
+@media (min-width: 768px) { #containerPhoto{height: 400px;} }
+@media (min-width: 992px) { #containerPhoto{height: 500px;} }
+@media (min-width: 1200px) { #containerPhoto{height: 750px;} }  
+
+#textePhoto{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#a{
+    background-image: #f00;
+    /* radial-gradient(circle, #ffbc00, #ff8765, #ff71ba, #c988f8, #009dff); */
+}
+
+h1{
+    font-family: 'Play', sans-serif !important;
+}
+h2{
+    
+    font-family: 'Lobster', cursive !important; 
+}
+h3{
+    font-family: 'Indie Flower', cursive !important;
+}
+h4{
+    font-family: 'Gochi Hand', cursive !important;
+}
+#texteObjectif{
+    padding: 0% 20%;
+}
+
+img{
+    width: 100%;
+}
+
+
+/* .cardImg{
+    height: 75%;
+} */
