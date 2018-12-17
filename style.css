@@ -4,14 +4,6 @@ html, body{
     width: 100%;
 }
 
-@media (max-width: 768px) {
-    h1{font-size: 2rem !important;}
-    h2{font-size: 1.3rem !important;}
-    h3{font-size: 1.05rem !important;}
-    h4{font-size: 0.7rem !important;}
-    
-}
-
 nav{
     background-color: rgba(255, 255, 255, 0.5);
 }
@@ -22,10 +14,10 @@ nav{
     background-size: cover;
     background-position: center center;    
 }
-@media (max-width: 576px) { #Accueil{height: 300px;} }
-@media (min-width: 576px) { #Accueil{height: 300px;} }
-@media (min-width: 768px) { #Accueil{height: 400px;} }
-@media (min-width: 992px) { #Accueil{height: 500px;} }
+@media (max-width: 576px) { #Accueil{height: 400px;} }
+@media (min-width: 576px) { #Accueil{height: 400px;} }
+@media (min-width: 768px) { #Accueil{height: 500px;} }
+@media (min-width: 992px) { #Accueil{height: 600px;} }
 @media (min-width: 1200px) { #Accueil{height: 750px;} }  
 
 #textePhoto{
@@ -46,9 +38,21 @@ h3{
 h4{
     font-family: 'Gochi Hand', cursive !important;
 }
-#texteObjectif{
-    padding: 0% 20%;
+
+@media (max-width: 768px) {
+    h1{font-size: 1.9rem !important;}
+    h2{font-size: 1.5rem !important;}
+    h3{font-size: 1.4rem !important;}
+    h4{font-size: 0.7rem !important;}   
 }
+
+#texteObjectif{
+    padding: 2% 30%;
+}
+@media (max-width: 768px) {
+    #texteObjectif{
+        padding: 2% 5%;
+    }}
 
 .wi-100 {width: 100% !important;}
 .wi-80 {width: 80% !important;}
