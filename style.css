@@ -20,6 +20,7 @@ nav{
     filter: grayscale(60%);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
     /* clip-path: inset(50px 60px); */
     
     
